@@ -7,3 +7,47 @@
 body{
     background-color: aqua;
 }
+
+.flex{
+    display: flex;
+   
+}
+
+.high{
+    justify-content: space-between;
+    background-color: #3c1ea0;
+    width: 80%;;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+}
+
+.button-box{
+    background-color: blueviolet;
+}
+
+button{
+    padding: 7px 16px;
+    border-radius: 40px;
+}
+
+.navbar{
+    justify-content: space-between;
+    width: 500px;
+    background-color: cornflowerblue;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
