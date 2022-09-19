@@ -111,7 +111,7 @@ main{
     padding: 60px 0;
 }
 
-.second-container>.image{
+.second>.image{
     order: 2;
 }
 
@@ -133,4 +133,33 @@ main{
 .promt>h2,
 .promt>span{
     margin: 20px;
+}
+
+footer{
+    background-color: green;
+}
+
+footer>.container{
+    width: 80%;
+    margin: auto;
+    border-bottom: 3px solid red;
+}
+
+select{
+
+}
+
+.social{
+    width: 180px;
+    height: 45px;
+    background-color: rgb(35, 53, 8);
+}
+
+.ul-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-footer>li{
+    background-color: greenyellow;
 }
