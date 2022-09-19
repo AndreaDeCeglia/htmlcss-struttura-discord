@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
+header{
     background-color: aqua;
+    color: white;
 }
 
 .flex{
@@ -16,14 +17,15 @@ body{
 .high{
     justify-content: space-between;
     background-color: #3c1ea0;
-    width: 80%;;
+    width: 80%;
     height: 100px;
     margin: auto;
     align-items: center;
 }
 
 .logo{
-    width: 150px;
+    /* width: 150px; */
+    flex-basis: 15%;
     height: 100px;
     background-color: blue;
 }
@@ -32,14 +34,20 @@ body{
     background-color: blueviolet;
 }
 
+.login-button{
+    flex-basis: 15%;
+}
+
 button{
     padding: 7px 16px;
     border-radius: 40px;
+    border: none;
 }
 
 .navbar{
     justify-content: space-between;
-    width: 500px;
+    /* width: 500px; */
+    flex-basis: 50%;
     background-color: cornflowerblue;
 }
 
@@ -47,7 +55,27 @@ ul{
     list-style-type: none;
 }
 
-a{
+li>a{
     color: white;
     text-decoration: none;
 }
+
+.hsection{
+    width: 50%;
+    margin: auto;
+    background-color: darkblue;
+    padding: 50px;
+    text-align: center;
+}
+
+.title{
+    background-color: aqua;
+    margin: 10px;
+}
+
+.presentation{
+    background-color: rgb(31, 10, 51);
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
