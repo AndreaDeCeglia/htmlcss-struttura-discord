@@ -17,7 +17,7 @@ header{
 .high{
     justify-content: space-between;
     background-color: #3c1ea0;
-    width: 80%;
+    width: 70%;
     height: 100px;
     margin: auto;
     align-items: center;
@@ -79,3 +79,58 @@ li>a{
     margin-bottom: 10px;
 }
 
+main{
+    background-color: indianred;   
+}
+
+.description-container{
+    width: 60%;
+    margin: auto;
+    background-color: rgba(68, 10, 10, 0.918);
+    padding-bottom: 40px;
+}
+
+.image{
+    flex-basis: 60%;
+    background-color: fuchsia;
+}
+
+.description{
+    flex-basis: 30%;
+    background-color: red;
+}
+
+.first,
+.second,
+.third{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    padding: 60px 0;
+}
+
+.second-container>.image{
+    order: 2;
+}
+
+.fourth{
+    flex-direction: column-reverse;
+}
+
+.image4{
+    height: 200px;
+    width: 100%;
+    background-color: fuchsia;
+}
+
+.promt{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.promt>h2,
+.promt>span{
+    margin: 20px;
+}
